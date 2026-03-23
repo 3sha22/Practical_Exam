@@ -1,0 +1,123 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+<head>
+   <meta charset ="UTF=8">
+    <meta name = "viewport"  content>   
+  'with =device-width initial-scale=1.0'
+<title> Pizza-Order form  </title>
+
+
+<style> 
+</style>
+
+
+<body> 
+<form action="#" method ="post">
+<h1>PIZZA by slice</h1>
+
+<!--Topping-->
+
+<h2>Toppings</h2>
+
+<label>
+  <input type ="checkbox" name="Cheese" checked disabled>
+   Cheese 
+</label>
+<br>
+<label>
+  <input type="checkbox"  name="Mushroom" >
+   Mushroom
+</label>
+<br>
+<label>
+   <input type="checkbox"  name="Bellpepper">
+   Bellpepper
+</label>
+<br>
+<label>
+ <input type ="checkbox" name="Bacon">
+  Bacon
+  </label>
+
+
+<label>
+  <input type="checkbox"  name="Pepperoni" >
+  Pepperroni
+</label>
+
+<label>
+  <input type="checkbox"  name="Onions" >
+   Onions
+</label>
+
+<label>
+  <input type="checkbox"  name="Olives" >
+   Olives
+</label>
+<br>
+<label title='Warning: Pineapple on pizza is Controversial'>
+  <input type="checkbox" name="Pineapple>
+   Pineapple
+</label>
+
+
+
+
+ 
+
+
+<div style ="max-width:75%;">
+<h2>Delivery Method</h2>
+<p>
+<input type ="radio" name ="homeDeliverPickUp">
+  Home delivery:<br>
+   
+<label for"">Address:</label> <br>
+<textarea Address="" row="3" required></textarea><br>
+<input type ="radio" name="homeDeliverPickUp" value="">
+Pickup:
+</p>
+
+<h2>Payment Information</h2>
+<label for ="Payment_Method"</label>
+<select name ="Payment_method" id="count">
+
+   <option value="" disable selcted>Payment_method</option> 
+
+   <option value="Creditcard">Creditcard</option> 
+   <option value="Gcash">Gcash</option> 
+     <option value="Cash on delivery">Cash on Delivery</option> 
+</div>
+<br><br>
+
+<form action="/action-page.php">
+<fieldset>
+<legend><h3>Payment Details</h3>></legend>
+  <label for="Number">Number:</label>
+<input type="text" placeholder="123456789123056" 
+pattern="[0-9]{16}"
+ id="Number"
+ name="Number required "   >
+ <small>Required for Credit Card only</small>
+</fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
